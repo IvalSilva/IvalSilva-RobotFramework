@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20181007 17:01:42.104" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
+<suite source="C:\Automacao_Robot\STC\Resourse.robot" id="s1" name="Resourse">
+<test id="s1-t1" name="test">
+<kw name="Abrir Launcher">
+<kw name="Run" library="AutoItLibrary">
+<doc>Direct wrapper for AutoIt's Run method.</doc>
+<arguments>
+<arg>STCLauncher.exe</arg>
+</arguments>
+<msg timestamp="20181007 17:01:42.300" level="INFO">AutoItLibrary.Run(FileName='STCLauncher.exe', WorkingDir='', Flag='')</msg>
+<status status="PASS" endtime="20181007 17:01:42.300" starttime="20181007 17:01:42.275"></status>
+</kw>
+<kw name="Win Wait" library="AutoItLibrary">
+<doc>Direct wrapper for AutoIt's WinWait method.</doc>
+<arguments>
+<arg>WindowTitle=STC launcher - 1.5.0.2</arg>
+</arguments>
+<msg timestamp="20181007 17:01:42.563" level="INFO">AutoItLibrary.WinWait(WindowTitle='STC launcher - 1.5.0.2', WindowText='', TimeOut=60)</msg>
+<status status="PASS" endtime="20181007 17:01:42.563" starttime="20181007 17:01:42.301"></status>
+</kw>
+<status status="PASS" endtime="20181007 17:01:42.563" starttime="20181007 17:01:42.274"></status>
+</kw>
+<status status="PASS" endtime="20181007 17:01:42.564" critical="yes" starttime="20181007 17:01:42.273"></status>
+</test>
+<status status="PASS" endtime="20181007 17:01:42.565" starttime="20181007 17:01:42.107"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Resourse" pass="1">Resourse</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
